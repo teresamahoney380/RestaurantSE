@@ -78,14 +78,14 @@ public class DB_MySql implements DBAccessor
         return list;
       
     }
-    public static void main(String[] args) throws Exception {
-            DB_MySql db = new DB_MySql();
-            db.openConnection("com.mysql.jdbc.Driver", 
-                    "jdbc:mysql://localhost:3306/menu_project", 
-                    "root", "admin");
-            
-            List records = db.retrieveRecords("select menu_id, menu_item, item_price from menu", true);
-            System.out.println(records);
-        }
+//    public static void main(String[] args) throws Exception {
+//            DB_MySql db = new DB_MySql();
+//            db.openConnection("com.mysql.jdbc.Driver", 
+//                    "jdbc:mysql://localhost:3306/menu_project", 
+//                    "root", "admin");
+//            
+//            List records = db.retrieveRecords("select menu_id, menu_item, item_price from menu", true);
+//            System.out.println(records);
+//        }
     
 }// end class
