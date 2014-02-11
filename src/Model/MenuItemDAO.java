@@ -57,12 +57,12 @@ public class MenuItemDAO {
         }
     return records;
 }
-    public static void main(String[] args) throws Exception {
-        MenuItemDAO m=new MenuItemDAO();
-        List<MenuItem> recs = m.getAllMenuItems();
-        for(MenuItem rec:recs){
-            System.out.println(rec);
-            
-        }
-    }
+//    public static void main(String[] args) throws Exception {
+//        MenuItemDAO m=new MenuItemDAO();
+//        List<MenuItem> recs = m.getAllMenuItems();
+//        for(MenuItem rec:recs){
+//            System.out.println(rec);
+//            
+//        }
+//   }
 }
